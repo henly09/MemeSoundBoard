@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadeScrollbars="false"
+    android:scrollbars="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F9fff4"
+        android:backgroundTint="#F9fff4"
+        android:screenOrientation="portrait"
+        tools:context=".MainActivity">
+
+        <ImageButton
+            android:id="@+id/hellnah_Button"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="50dp"
+            android:foregroundGravity="clip_horizontal|center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/stopthecap_Button"
+            app:srcCompat="@drawable/baseline_volume_up_24" />
+
+        <ImageButton
+            android:id="@+id/stopthecap_Button"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_volume_up_24" />
+
+        <ImageButton
+            android:id="@+id/Bruh_Button"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hellnah_Button"
+            app:layout_constraintVertical_bias="0.15"
+            app:srcCompat="@drawable/baseline_volume_up_24" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="170dp"
+            android:layout_height="51dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center|center_horizontal"
+            android:outlineAmbientShadowColor="#292929"
+            android:outlineProvider="background"
+            android:outlineSpotShadowColor="#1E1D1D"
+            android:text="Stop The Cap"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/stopthecap_Button"
+            app:layout_constraintEnd_toEndOf="@+id/stopthecap_Button"
+            app:layout_constraintStart_toStartOf="@+id/stopthecap_Button"
+            app:layout_constraintTop_toTopOf="@+id/stopthecap_Button"
+            app:layout_constraintVertical_bias="0.502" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="170dp"
+            android:layout_height="51dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center|center_horizontal"
+            android:outlineAmbientShadowColor="#292929"
+            android:outlineProvider="background"
+            android:outlineSpotShadowColor="#1E1D1D"
+            android:text="Oh Hell Naw"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/hellnah_Button"
+            app:layout_constraintEnd_toEndOf="@+id/hellnah_Button"
+            app:layout_constraintStart_toStartOf="@+id/hellnah_Button"
+            app:layout_constraintTop_toTopOf="@+id/hellnah_Button" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="170dp"
+            android:layout_height="51dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center|center_horizontal"
+            android:outlineAmbientShadowColor="#292929"
+            android:outlineProvider="background"
+            android:outlineSpotShadowColor="#1E1D1D"
+            android:text="Bruh"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/Bruh_Button"
+            app:layout_constraintStart_toStartOf="@+id/Bruh_Button"
+            app:layout_constraintTop_toTopOf="@+id/Bruh_Button"
+            app:layout_constraintVertical_bias="0.417" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+</FrameLayout>
+
