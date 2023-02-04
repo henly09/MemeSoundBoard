@@ -31,11 +31,11 @@ public class MainActivity extends AppCompatActivity {
                     .build();
 
             soundpool = new SoundPool.Builder()
-                    .setMaxStreams(10)
+                    .setMaxStreams(18)
                     .setAudioAttributes(audioAttributes)
                     .build();
         } else {
-            soundpool = new SoundPool(10, AudioManager.STREAM_MUSIC, 0);
+            soundpool = new SoundPool(18, AudioManager.STREAM_MUSIC, 0);
         }
 
         sound1 = soundpool.load(this, R.raw.bruh, 1);
@@ -80,58 +80,58 @@ public class MainActivity extends AppCompatActivity {
     public void playSound(View v){
         switch (v.getId()) {
             case R.id.Bruh_Button:
-                soundpool.play(sound1, 1.5f, 1.5f, 1, 0, 1.1f);
+                soundpool.play(sound1, 3f, 3f, 1, 0, 1.1f);
                 break;
             case R.id.hellnah_Button:
-                soundpool.play(sound2, 1.5f, 1.5f, 1, 0, 1.1f);
+                soundpool.play(sound2, 3f, 3f, 1, 0, 1.1f);
                 break;
             case R.id.stopthecap_Button:
-                soundpool.play(sound3, 1.5f, 1.5f, 1, 0, 1.1f);
+                soundpool.play(sound3, 3f, 3f, 1, 0, 1.1f);
                 break;
             case R.id.agik:
-                soundpool.play(sound5, 1.5f, 1.5f, 1, 0, 1.1f);
+                soundpool.play(sound5, 3f, 3f, 1, 0, 1.1f);
                 break;
             case R.id.airhorn:
-                soundpool.play(sound6, 1.5f, 1.5f, 1, 0, 1.1f);
+                soundpool.play(sound6, 3f, 3f, 1, 0, 1.1f);
                 break;
             case R.id.auuuuuugggggghhhh:
-                soundpool.play(sound4, 1.5f, 1.5f, 1, 0, 1.1f);
+                soundpool.play(sound4, 3f, 3f, 1, 0, 1.1f);
                 break;
             case R.id.bingchilling:
-                soundpool.play(sound8, 1.5f, 1.5f, 1, 0, 1.1f);
+                soundpool.play(sound8, 3f, 3f, 1, 0, 1.1f);
                 break;
             case R.id.badangdalawangbesesnayan:
-                soundpool.play(sound7, 1.5f, 1.5f, 1, 0, 1.1f);
+                soundpool.play(sound7, 3f, 3f, 1, 0, 1.1f);
                 break;
             case R.id.bomboclat:
-                soundpool.play(sound9, 1.5f, 1.5f, 1, 0, 1.1f);
+                soundpool.play(sound9, 3f, 3f, 1, 0, 1.1f);
                 break;
             case R.id.cricketakward:
-                soundpool.play(sound10, 1.5f, 1.5f, 1, 0, 1.1f);
+                soundpool.play(sound10, 3f, 3f, 1, 0, 1.1f);
                 break;
             case R.id.vineboomsound:
-                soundpool.play(sound11, 1.5f, 1.5f, 1, 0, 1.1f);
+                soundpool.play(sound11, 3f, 3f, 1, 0, 1.1f);
                 break;
             case R.id.mgabobo:
-                soundpool.play(sound12, 1.5f, 1.5f, 1, 0, 1.1f);
+                soundpool.play(sound12, 3f, 3f, 1, 0, 1.1f);
                 break;
             case R.id.amogus:
-                soundpool.play(sound13, 1.5f, 1.5f, 1, 0, 1.1f);
+                soundpool.play(sound13, 3f, 3f, 1, 0, 1.1f);
                 break;
             case R.id.whatthehell:
-                soundpool.play(sound14, 1.5f, 1.5f, 1, 0, 1.1f);
+                soundpool.play(sound14, 3f, 3f, 1, 0, 1.1f);
                 break;
             case R.id.yareugae:
-                soundpool.play(sound15, 1.5f, 1.5f, 1, 0, 1.1f);
+                soundpool.play(sound15, 3f, 3f, 1, 0, 1.1f);
                 break;
             case R.id.tahptahptahp:
-                soundpool.play(sound16, 1.5f, 1.5f, 1, 0, 1.1f);
+                soundpool.play(sound16, 3f, 3f, 1, 0, 1.1f);
                 break;
             case R.id.moanhentai:
-                soundpool.play(sound17, 1.5f, 1.5f, 1, 0, 1.1f);
+                soundpool.play(sound17, 3f, 3f, 1, 0, 1.1f);
                 break;
             case R.id.oof:
-                soundpool.play(sound18, 1.5f, 1.5f, 1, 0, 1.1f);
+                soundpool.play(sound18, 3f, 3f, 1, 0, 1.1f);
                 break;
         }
     }
