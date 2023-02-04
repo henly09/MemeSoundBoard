@@ -48,11 +48,22 @@ public class MainActivity extends AppCompatActivity {
         sound8 = soundpool.load(this, R.raw.bingchilling, 1);
         sound9 = soundpool.load(this, R.raw.bomboclat, 1);
         sound10 = soundpool.load(this, R.raw.cricketsakward, 1);
+        sound11 = soundpool.load(this, R.raw.vineboomsound, 1);
+        sound12 = soundpool.load(this, R.raw.mgabobo, 1);
+        sound13 = soundpool.load(this, R.raw.amogus, 1);
+        sound14 = soundpool.load(this, R.raw.whatthehell, 1);
+        sound15 = soundpool.load(this, R.raw.yareugae, 1);
+        sound16 = soundpool.load(this, R.raw.tahptahptahp, 1);
+        sound17 = soundpool.load(this, R.raw.moanhentai, 1);
+        sound18 = soundpool.load(this, R.raw.oof, 1);
+
+
+
         /*sound11 = soundpool.load(this, R.raw.fbiopenup, 1);
         sound12 = soundpool.load(this, R.raw.goatscream, 1);
         sound13 = soundpool.load(this, R.raw.itsonlyagame, 1);
         sound14 = soundpool.load(this, R.raw.masonakogago, 1);
-        sound15 = soundpool.load(this, R.raw.mgabobo, 1);
+
         sound16 = soundpool.load(this, R.raw.nameisjohncena, 1);
         sound17= soundpool.load(this, R.raw.oof, 1);
         sound18 = soundpool.load(this, R.raw.ps2startup, 1);
@@ -97,6 +108,30 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.cricketakward:
                 soundpool.play(sound10, 1.5f, 1.5f, 1, 0, 1.1f);
+                break;
+            case R.id.vineboomsound:
+                soundpool.play(sound11, 1.5f, 1.5f, 1, 0, 1.1f);
+                break;
+            case R.id.mgabobo:
+                soundpool.play(sound12, 1.5f, 1.5f, 1, 0, 1.1f);
+                break;
+            case R.id.amogus:
+                soundpool.play(sound13, 1.5f, 1.5f, 1, 0, 1.1f);
+                break;
+            case R.id.whatthehell:
+                soundpool.play(sound14, 1.5f, 1.5f, 1, 0, 1.1f);
+                break;
+            case R.id.yareugae:
+                soundpool.play(sound15, 1.5f, 1.5f, 1, 0, 1.1f);
+                break;
+            case R.id.tahptahptahp:
+                soundpool.play(sound16, 1.5f, 1.5f, 1, 0, 1.1f);
+                break;
+            case R.id.moanhentai:
+                soundpool.play(sound17, 1.5f, 1.5f, 1, 0, 1.1f);
+                break;
+            case R.id.oof:
+                soundpool.play(sound18, 1.5f, 1.5f, 1, 0, 1.1f);
                 break;
         }
     }
